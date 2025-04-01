@@ -1,14 +1,14 @@
-body {
+body .homepage {
     background-image: url("https://i.pinimg.com/736x/53/9f/3e/539f3e7fe2111ea88338ace1f68c387d.jpg");
     background-size: cover;
     background-color: pink; /* Fallback background color */
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: DarkMagenta;
+    color: darkmagenta;
     font-size: 30px;
     text-align: center;
 }
@@ -205,6 +205,7 @@ nav a:hover {
         font-size: 14px;
     }
 }
+
 body.contactpage {
 background-image: url("https://i.pinimg.com/736x/1c/38/82/1c388279ca07540ac9ef0bd35a8b868d.jpg");
     background-size: cover;
