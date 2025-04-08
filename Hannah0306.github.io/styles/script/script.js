@@ -23,3 +23,5 @@ function showMessage()
 alert(sum);
     
 }
+
+document.getElementById("main").style.backgroundColor = "grey";
