@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="./styles/style.css">
+        <script defer src="./script/script.js"></script>
         <meta encording="utf-16">
         <title>
              Blog
@@ -10,16 +11,31 @@
         
     </head>
     <body class="homepage" bgcolor="pink"> 
-        
-        
-        
+      
             <h1>
                 
                        MY BLOG
                 
             </h1>
+            <button onclick="showMessage()">click me</button>
+            <button onclick="checkAge ()">Enter the page</button>
+            <button onclick="showMany ()">Try to close?</button>
+            <button onclick="changeColor()"> Change color</button>
+            <button id="hoverButton">Hover me!</button>
+            <button id="buttonCounter">Click me to count!</button>
+<p id="counter">You have clicked 0 times.</p>
+<div id="container"></div>
+<button onclick="showMessages()">Show Messages</button>
+
+
+
+
             
-            <img width="400" src="https://i.pinimg.com/736x/2d/d9/de/2dd9de765f8acc98626cf72827339200.jpg">
+            
+            <img id="Image" src="https://i.pinimg.com/736x/2d/d9/de/2dd9de765f8acc98626cf72827339200.jpg" width="400">
+
+            <button onclick="changeImage1()">Image 1</button>
+            <button onclick="changeImage2()">Image 2</button>
 
         
         <h2>
@@ -39,10 +55,13 @@
             This page is about me...
         
         
-             <p>
-                This blog shows my life style as well as my hobbies when I have free time. This is a place that I freely can share all my stories!<br>This page will let you know more about me such as my hobbies, places that I have traveled before...<br> I hope this website will make you feel interested in :)))
-             </p>
-        
+            <p id="main">
+                This blog shows my lifestyle as well as my hobbies when I have free time. This is a place that I freely can share all my stories!<br>
+                This page will let you know more about me such as my hobbies, places that I have traveled before...<br>
+                I hope this website will make you feel interested in :)))
+            </p>
+            
+             
 
       <nav>
         <ul>
